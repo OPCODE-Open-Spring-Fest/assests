@@ -1,9 +1,46 @@
-# About The Project
+# Net_Worth_Mate
 
-"Net Worth Mate" is designed as a comprehensive asset management platform that offers users a robust set of tools to manage and evaluate their financial holdings. One key feature of the platform is its ability to facilitate the sale and purchase of assets, allowing users to easily expand their investment portfolios.
+## Introduction ✨
 
-Another notable feature of "Net Worth Mate" is its option to engage a middleman. This feature provides users with the flexibility to involve a trusted intermediary in their asset transactions, adding an extra layer of security and convenience.
+"Net Worth Mate" is designed as a comprehensive asset management platform that offers users a robust set of tools to manage and evaluate their financial holdings.
 
-One of the unique aspects of "Net Worth Mate" is its advanced control features. Users can set specific limits on the middleman's authority, dictating how much and what types of assets the middleman can sell. This feature provides users with greater control over their assets, ensuring that their investment decisions are executed according to their preferences and goals.
+## Technologies Used 🧑‍💻
 
-Overall, "Net Worth Mate" is designed to empower users to take control of their financial futures by providing them with the tools and flexibility they need to manage their assets effectively and efficiently.
+- Solidity
+
+## Contact 📱
+
+If you have any questions or feedback, please reach out to us at shobhit.2201140ec@iiitbh.ac.in 📧
+
+### Setup
+
+To set up **Net_Worth_Mate** on your local machine, follow these steps:
+
+1. Fork the repository:
+
+   - Click the "Fork" button at the top right corner of this repository's page on GitHub. This will create a copy of the repository in your GitHub account.
+
+2. Clone the forked repository:
+
+```bash
+git clone https://github.com/<yourusername>/net_worth_mate.git
+```
+
+3. Navigate to the project directory:
+
+```bash
+cd net_worth_mate
+```
+
+4. Install Node.js dependencies(make sure node is installed on your laptop):
+
+```bash
+npm i
+```
+5.  Open the contract folder and copy all the contents of the net_worth_mate.sol file and paste it on remix (or you can use VS Code but     remix ide is recommended). Remix ide(link) : http://lnkiy.in/Remix_ide
+6.  Create a new branch for your feature or bug fix.
+7.  Make your changes and commit them.
+8.  Push to the branch.
+9.  Submit a pull request with the issue number.
+
+You are good to go to make your contribution!! All the best!.
