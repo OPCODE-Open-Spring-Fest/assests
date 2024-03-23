@@ -1,7 +1,6 @@
 # Project Tour
 
 In the 'Contracts' folder, you'll find a single file with a '.sol' extension. This file is where you should make all your changes. Simply open this file to access the contract code and update it as needed. If you have any questions or need assistance with the changes, feel free to ask!
-
 ```bash
 │   .gitignore
 │   CODE_OF_CONDUCT.md
@@ -9,7 +8,7 @@ In the 'Contracts' folder, you'll find a single file with a '.sol' extension. Th
 │   package-lock.json
 │   package.json
 │   README.md
-│
+│   
 ├───.github
 │   │   pull_request_template.md
 │   │
@@ -32,8 +31,26 @@ In the 'Contracts' folder, you'll find a single file with a '.sol' extension. Th
 │           prmerged.yaml
 │
 ├───.husky
-│       commit-msg
-│       pre-commit
+│   │   commit-msg
+│   │   pre-commit
+│   │
+│   └───_
+│           .gitignore
+│           applypatch-msg
+│           commit-msg
+│           h
+│           husky.sh
+│           post-applypatch
+│           post-checkout
+│           post-commit
+│           post-merge
+│           post-rewrite
+│           pre-applypatch
+│           pre-auto-gc
+│           pre-commit
+│           pre-push
+│           pre-rebase
+│           prepare-commit-msg
 │
 └───contracts
         net_worth_mate.sol
