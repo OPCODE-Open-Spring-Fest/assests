@@ -38,5 +38,22 @@ contract net_worth_mate
         uint[5] memory assetArray = [assets.houses, assets.jewellery, assets.cars, assets.land,  assets.miscellaneous];
         return assetArray;
     }
+
+    function updateAssets(
+        uint houses,
+        uint jewellery,
+        uint cars,
+        uint land,
+        uint miscellaneous) external {
+
+            AssetDetails memory assets = assetMapping[msg.sender];
+            assets.houses = houses; 
+            assets.jewellery = jewellery;
+            assets.cars = cars;
+            assets.land = land;
+            assets.miscellaneous = miscellaneous;
+            assetMapping[msg.sender] = assets;
+
+        } 
 }
 
