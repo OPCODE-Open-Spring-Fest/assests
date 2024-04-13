@@ -13,7 +13,7 @@ contract net_worth_mate
         uint cars;
         uint land;
         uint miscellaneous;
-        bool exist;
+        bool exists;
     }
 
     mapping (address => AssetDetails) public assetMapping;
@@ -24,7 +24,7 @@ contract net_worth_mate
     }
     
     modifier userPresent(){
-        require(assetMapping[msg.sender].exist, "User not found");
+        require(assetMapping[msg.sender].exists, "User not found");
         _;
     }
 
