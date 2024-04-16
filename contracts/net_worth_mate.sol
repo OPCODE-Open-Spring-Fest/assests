@@ -14,6 +14,7 @@ contract net_worth_mate
 
     mapping (address => AssetDetails) public assetMapping;
     
+
     modifier isPositive5(uint num1, uint num2, uint num3, uint num4, uint num5){
         require(num1>0 && num2>0 && num3>0 && num4>0 && num5>0, "Invalid Input");
         _;
@@ -29,7 +30,7 @@ contract net_worth_mate
         uint jewellery,
         uint cars,
         uint land,
-        uint miscellaneous) external isPositive5(houses, jewellery, cars, land, miscellaneous) {
+        uint miscellaneous) external {
      
         AssetDetails memory assets = AssetDetails(houses, jewellery, cars, land, miscellaneous, true);
         assetMapping[msg.sender] = assets;    
